@@ -15,5 +15,6 @@ func main() {
 	// concurrency.MainFibonacci()
 	// concurrency.MainTreeProblem()
 	// concurrency.MainMutex()
-	concurrency.MainForever()
+	// concurrency.MainForever()
+	concurrency.MainMax10Goroutine()
 }

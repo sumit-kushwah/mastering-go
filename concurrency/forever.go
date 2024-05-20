@@ -6,6 +6,7 @@ import (
 	"strconv"
 )
 
+//lint:ignore U1000 Ignore all unused code, it's ok
 func printName() {
 	i := 0
 	for {
