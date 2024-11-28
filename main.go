@@ -1,6 +1,8 @@
 package main
 
 import (
+	"go-by-example/programs"
+
 	"github.com/sumit-kushwah/mastering-go-concurrency/concurrency"
 )
 
@@ -17,4 +19,5 @@ func main() {
 	// concurrency.MainMutex()
 	// concurrency.MainForever()
 	concurrency.MainMax10Goroutine()
+	programs.MainFunction()
 }
